@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    font-family: "Verdana";
+    color: white;
+    font-size: 36px;
+}
+.main {
+    text-align: left;
+    width: 1280px;
+}
+.block1, .block4 {
+    background-color: #383838;
+    border-radius: 50px;
+    margin: 40px;
+}
+.img1 {
+    border-radius: 50px 50px 0px 0px;
+    background-image: url("../images/01.jpg");
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name {
+   padding: 540px 80px 80px 80px;
+   font-family: "Tahoma";
+}
+.name h1{
+    margin: 0px;
+    font-size: 80px;
+}
+.description ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+    line-height: 1.5;
+}
+.description {
+    padding: 50px 80px 50px 80px;
+    
+}
+.block2, .block3  {
+    line-height: 1.5;
+    padding: 0px 70px 0px 70px;
+}
+
+.block3 p, .block4 p {
+    margin-bottom: 0px;
+}
+.block3 a {
+    color: white;
+    line-height: 1.5;
+}
+
+.block4 {
+    padding: 70px;
+    text-align: center;
+    margin-top: 20px;
+}
+.block4 p {
+    margin-top: 20px;
+}
